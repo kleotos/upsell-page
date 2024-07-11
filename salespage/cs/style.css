@@ -4,6 +4,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 #ae {
     width: 100%;
 }
