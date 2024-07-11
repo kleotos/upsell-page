@@ -379,10 +379,6 @@ a {
   max-width: 400px;
   height: auto;
 }
- 
-#slr h1 {
-
-}
 
 
 .btn {
@@ -529,7 +525,6 @@ a {
     text-align: center;
     font-weight: 900;
     font-size: 1.4rem;
-    /* padding: 2rem; */
 }
 
 #dyw #sng p:last-child {
@@ -543,7 +538,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid; */
+    border: 2px solid;
 }
 
 #bcg-35 p:first-child {
@@ -553,11 +548,14 @@ a {
 }
 
 
-#cntr {
+/* #cntr {
     display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1200px;
+    width: 80%;
     margin: auto;
 }
 
@@ -568,7 +566,7 @@ a {
     text-align: center;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* width: 300px; */
+    width: 300px;
 }
 
 .offer h2 {
@@ -582,7 +580,7 @@ a {
 }
 
 .offer img {
-    width: 100px;
+    width: 200px;
     height: auto;
     margin: 10px 0;
 }
@@ -633,7 +631,95 @@ a {
     font-size: 2em;
     color: red;
     font-weight: bold;
+} */
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
 }
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.price h3 {
+    color: #000;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.old-price {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.free-delivery {
+    color: #ff0000;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.free-delivery i {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+@media (max-width: 768px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #hq {
     background-color: black;
@@ -647,9 +733,29 @@ a {
   height: auto;
 }
 
+#bid {
+    padding-bottom: 2rem;
+}
 #bid h1, p{
     text-align: center;
 }
+
+
+#wg p:first-of-type{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 2rem;
+}
+
+#wg p:last-child{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-top: 1rem;
+}
+
+
+
+
 
 
 footer {
@@ -743,6 +849,16 @@ footer a:hover {
         color: black;
         font-weight: 100;
     }
+
+    #bid h1{
+        font-weight: 400;
+    }
+
+    .product {
+        width: 100%;
+        margin: 10px 0;
+    }
+
 
     footer {
         font-size: 6px;
