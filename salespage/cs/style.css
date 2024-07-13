@@ -146,7 +146,7 @@ a {
 #tl img {
     border-radius: 50%;
     width: 100px;
-    height: 310px;
+    height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
 }
@@ -726,7 +726,7 @@ footer a:hover {
     }
 
 
-    footer {
+    footer p{
         font-size: 6px;
        
     }
@@ -776,6 +776,11 @@ footer a:hover {
         width: 250px;
         height: 60px;
         font-size: 24px;
+    }
+
+    #tl img {
+        width: 100px;
+        height: 310px;
     }
     
 
