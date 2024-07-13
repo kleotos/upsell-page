@@ -155,12 +155,6 @@ hr {
 }
 
 #bf #cd img {
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: auto; */
-
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -226,12 +220,14 @@ hr {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  /* width: 500px;
+  height:70px; */
   transition: transform 0.3s ease, background-color 0.3s ease;
-  animation: rotate 2s infinite;
+  /* animation: rotate 2s infinite; */
 }
 
 #cd button:hover {
@@ -257,14 +253,6 @@ hr {
   }
 }
 
-
-
-
-
-
-
-
-
 #footer {
   background-color: #f4f4f4;
   padding: 20px;
@@ -287,17 +275,6 @@ hr {
   font-size: 5px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 320px) {
   #section {
@@ -322,6 +299,11 @@ h2 {
 
 h3 {
     font-size: 1.4em;
+}
+
+#cd button {
+  width: 250px;
+  height:70px;
 }
 
 }
