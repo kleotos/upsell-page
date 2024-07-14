@@ -78,11 +78,8 @@ footer a {
     border-bottom: 1px solid currentColor;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .landing-page {
-        padding: 10px;
-    }
+    
 
     h1 {
         font-size: 1em;
@@ -94,6 +91,17 @@ footer a {
 
     p{
         font-size: 5px;
+    }
+
+    #lp p:first-of-type {
+        font-size: 20px;
+    }
+
+    #lp {
+       
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 0;
     }
     
 }
