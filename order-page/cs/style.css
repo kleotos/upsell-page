@@ -18,6 +18,8 @@ h1, h2 {
     color: #000; 
 }
 
+
+
 #lp {
     background-color: #fff;
     box-shadow: 0 0.5rem 0.5rem #c9c9c9;
@@ -40,10 +42,15 @@ h1, h2 {
 }
 
 #bs {
-    list-style: none;
     padding: 0;
     text-align: justify;
 }
+
+#ry  {
+    color: #0000FF;
+}
+
+
 
 
 #bs li {
@@ -83,14 +90,16 @@ footer a {
 
     h1 {
         font-size: 1em;
+        text-align: justify;
     }
 
     h2 {
         font-size: 1em;
+        text-align: justify;
     }
 
     p{
-        font-size: 5px;
+        font-size: 20px;
     }
 
     #lp p:first-of-type {
@@ -103,5 +112,20 @@ footer a {
         padding: 20px;
         margin-bottom: 0;
     }
+
+      #lp  h1{
+        font-size: 24px;
+      }
+      #lp h2{
+        font-size: 20px;
+      }
+
+      li {
+        font-size: 20px;
+      }
     
 }
+
+
+
+

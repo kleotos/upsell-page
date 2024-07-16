@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px; 
@@ -627,9 +628,9 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
-    body {
+    /* body {
         font-size: 14px; 
-    }
+    } */
 
     h1 {
         font-size: 1.5em;
@@ -840,8 +841,5 @@ footer a:hover {
     #w p:first-of-type {
         text-align: center;
     }
-    
-    
-
 }
 
